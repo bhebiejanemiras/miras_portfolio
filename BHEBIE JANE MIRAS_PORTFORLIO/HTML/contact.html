@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bhebie Jane Miras Portfolio</title>
+  <link rel="stylesheet" href="/index.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-top">
+      <div class="logo-area">
+        <img src="/PHOTOS/1.png" alt="Your Logo" class="site-logo">
+      </div>
+      <button class="hamburger" aria-label="Menu">&#9776;</button>
+    </div>
+    <nav class="nav-menu">
+      <a href="/HTML/home.html" class="nav-link">Home</a>
+      <a href="/HTML/home.html" class="nav-link">About</a>
+      <a href="/HTML/services.html" class="nav-link">Services</a>
+      <a href="/HTML/contact.html" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact-section">
+    <div class="contact-container">
+      <div class="contact-left">
+        <h2>Let’s Work Together!</h2>
+      </div>
+      <div class="contact-right">
+  <form action="mailto:bhebiejanemiras@gmail.com" method="POST" enctype="text/plain" class="contact-form">
+    <input type="text" name="firstname" placeholder="First Name" required>
+    <input type="text" name="lastname" placeholder="Last Name" required>
+    <input type="tel" name="phone" placeholder="Phone Number">
+    <input type="email" name="email" placeholder="Email" required>
+
+    <div class="contact-checkboxes">
+      <label><input type="checkbox" name="contact_method" value="Phone"> Phone Call</label>
+      <label><input type="checkbox" name="contact_method" value="Email"> Email</label>
+    </div>
+
+    <textarea name="message" placeholder="Your Message..." rows="4"></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="social-icons">
+      <a href="#"><img src="/PHOTOS/Facebook.jpg" alt="Facebook" /></a>
+      <a href="#"><img src="/PHOTOS/Instagram.jpg" alt="Instagram" /></a>
+      <a href="#"><img src="/PHOTOS/X.jpg" alt="X" /></a>
+      <a href="#"><img src="/PHOTOS/tiktok.jpg" alt="TikTok" /></a>
+      <a href="#"><img src="/PHOTOS/LinkInd.jpg" alt="LinkedIn" /></a>
+      <a href="mailto:bhebiejanemiras@gmail.com"><img src="/PHOTOS/Gmail.jpg" alt="Gmail" /></a>
+    </div>
+  </footer>
+
+  <!-- JS for hamburger menu -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const hamburger = document.querySelector(".hamburger");
+      const nav = document.querySelector(".nav-menu");
+      hamburger.addEventListener("click", () => {
+        nav.classList.toggle("open");
+      });
+    });
+  </script>
+
+</body>
+</html>

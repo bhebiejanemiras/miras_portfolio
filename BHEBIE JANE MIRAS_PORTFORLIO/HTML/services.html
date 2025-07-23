@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bhebie Jane Miras Portfolio</title>
+  <link rel="stylesheet" href="/index.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-top">
+      <div class="logo-area">
+        <img src="/PHOTOS/1.png" alt="Your Logo" class="site-logo">
+      </div>
+      <button class="hamburger" aria-label="Menu">&#9776;</button>
+    </div>
+    <nav class="nav-menu">
+      <a href="/HTML/home.html" class="nav-link">Home</a>
+      <a href="/HTML/about.html" class="nav-link">About</a>
+      <a href="/HTML/services.html" class="nav-link">Services</a>
+      <a href="/HTML/contact.html" class="nav-link">Contact</a>
+
+    </nav>
+  </header>
+
+  <!-- SERVICES -->
+  <section id="services" class="services-section">
+    <h2 class="section-title">SERVICES</h2>
+    <div class="services-grid">
+      <details>
+        <summary>Virtual Assistance</summary>
+        <p><strong>Description:</strong>Provide remote administrative support to help businesses stay organized and efficient.<br><strong>How I Can Help:</strong>With experience managing emails, calendars, files, and client communications, I can keep your operations smooth while you focus on growing your business. I’m highly organized, tech-savvy, and detail-oriented.</p>
+      </details>
+      <details>
+        <summary>Data Entry</summary>
+        <p><strong>Description:</strong>Accurate and fast input of data into spreadsheets, CRMs, or custom systems<br><strong>How I Can Help:</strong>I’ve handled various data entry tasks like form processing, record updating, and database clean-up with excellent accuracy. I can help you save time, reduce errors, and keep your information up-to-date.</p>
+      </details>
+      <details>
+        <summary>Social Media Management</summary>
+        <p><strong>Description:</strong>Manage your social media presence through scheduling, posting, engagement, and content creation.<br><strong>How I Can Help:</strong>Using Canva and platform-specific strategies, I’ve helped improve online visibility by creating eye-catching posts and responding to follower interactions. I can grow your community and ensure brand consistency across platforms.</p>
+      </details>
+      <details>
+        <summary>Online Research</summary>
+        <p><strong>Description:</strong>Conduct thorough online research for products, competitors, markets, or content.<br><strong>How I Can Help:</strong>I’ve researched for reports, content ideas, and product comparisons. I can deliver organized summaries, making decision-making faster and more informed for you.</p>
+      </details>
+      <details>
+        <summary>Basic Website Creation</summary>
+        <p><strong>Description:</strong> Build simple, responsive websites using HTML and CSS — perfect for portfolios, business landing pages, or personal sites.<br><strong>How I Can Help:</strong>I created a multi-page website for a school project, focusing on user-friendly structure and clean design. I can help small businesses or freelancers build a strong online presence without the high cost of hiring a developer.</p>
+      </details>
+      <details>
+        <summary>File & Document Organization</summary>
+        <p><strong>Description:</strong>Sort and manage digital documents for easy access and collaboration.<br><strong>How I Can Help:</strong>I’ve organized large sets of files in Google Drive and helped maintain shared folders, improving team efficiency and reducing clutter.</p>
+      </details>
+      <details>
+        <summary>Voiceover for Videos / Reels</summary>
+        <p><strong>Description:</strong> Provide clear, professional voiceovers for video content or social media posts.<br><strong>How I Can Help:</strong> If you have a clear and expressive voice, this can be a bonus offer. Many UGC creators and small businesses look for people to read scripts or narrate reels.</p>
+      </details>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="social-icons">
+      <a href="#"><img src="/PHOTOS/Facebook.jpg" alt="Facebook" /></a>
+      <a href="#"><img src="/PHOTOS/Instagram.jpg" alt="Instagram" /></a>
+      <a href="#"><img src="/PHOTOS/X.jpg" alt="X" /></a>
+      <a href="#"><img src="/PHOTOS/tiktok.jpg" alt="TikTok" /></a>
+      <a href="#"><img src="/PHOTOS/LinkInd.jpg" alt="LinkedIn" /></a>
+      <a href="mailto:bhebiejanemiras@gmail.com"><img src="/PHOTOS/Gmail.jpg" alt="Gmail" /></a>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const hamburger = document.querySelector(".hamburger");
+      const nav = document.querySelector(".nav-menu");
+      hamburger.addEventListener("click", () => {
+        nav.classList.toggle("open");
+      });
+    });
+  </script>
+
+</body>
+</html>

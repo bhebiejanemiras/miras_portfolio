@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bhebie Jane Miras Portfolio</title>
+  <link rel="stylesheet" href="/index.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-top">
+      <div class="logo-area">
+        <img src="/PHOTOS/1.png" alt="Your Logo" class="site-logo">
+      </div>
+      <button class="hamburger" aria-label="Menu">&#9776;</button>
+    </div>
+    <nav class="nav-menu">
+      <a href="/HTML/home.html" class="nav-link">Home</a>
+      <a href="/HTML/about.html" class="nav-link">About</a>
+      <a href="/HTML/services.html" class="nav-link">Services</a>
+      <a href="/HTML/contact.html" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about-section">
+    <h2 class="section-title">WELCOME!</h2>
+
+    <h3 class="section-subtitle">INTRODUCTION:</h3>
+    <p>
+     Hi, I’m Bhebie Jane Miras — a detail-oriented and dependable Virtual Assistant with a strong background in administrative support and data entry. I help businesses stay organized and efficient by handling day-to-day tasks with accuracy and professionalism. With a growing interest in healthcare processes like Medicaid insurance, I’m eager to learn and contribute more in dynamic work environments. Let’s work together to make your workload lighter and your goals easier to achieve!
+    </p>
+
+    <h3 class="section-subtitle">WORK EXPERIENCE:</h3>
+    <div class="experience-list">
+      <details>
+        <summary>Social Media Management</summary>
+        <p>As a social media specialist, I managed posting schedules, designed content using Canva, and engaged with audiences across Facebook and Instagram. I contributed to consistent growth in follower interaction by tracking insights and adjusting strategies based on analytics. I ensured brand consistency and followed trends to keep content relevant and engaging.</p>
+      </details>
+      <details>
+        <summary>Administrative Assistance</summary>
+        <p>I provided remote administrative support by organizing documents, managing schedules, responding to emails, and maintaining digital file systems. My work involved using tools like Google Workspace (Docs, Sheets, Calendar) and Microsoft Office to streamline daily operations, making workflows more efficient for teams and supervisors.</p>
+      </details>
+      <details>
+        <summary>Data Entry</summary>
+        <p>With a strong focus on accuracy and speed, I completed various data entry projects including spreadsheet management, form filling, transcription, and digital record updates. I ensured clean and organized data presentation for reporting and analytics purposes while meeting strict deadlines.</p>
+      </details>
+      <details>
+        <summary>Research Assistance</summary>
+        <p>I supported projects by conducting online research, summarizing findings, and compiling reports. My research tasks included product studies, market comparisons, and information gathering from reliable sources. I presented data in clear and useful formats such as Excel tables, helping clients and teams make informed decisions.</p>
+      </details>
+      <details>
+        <summary>Website Development (School Project)</summary>
+        <p>For an academic requirement, I designed and developed...</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="social-icons">
+      <a href="#"><img src="/PHOTOS/Facebook.jpg" alt="Facebook" /></a>
+      <a href="#"><img src="/PHOTOS/Instagram.jpg" alt="Instagram" /></a>
+      <a href="#"><img src="/PHOTOS/X.jpg" alt="X" /></a>
+      <a href="#"><img src="/PHOTOS/tiktok.jpg" alt="TikTok" /></a>
+      <a href="#"><img src="/PHOTOS/LinkInd.jpg" alt="LinkedIn" /></a>
+      <a href="mailto:bhebiejanemiras@gmail.com"><img src="/PHOTOS/Gmail.jpg" alt="Gmail" /></a>
+    </div>
+  </footer>
+
+  <!-- JS for hamburger menu -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const hamburger = document.querySelector(".hamburger");
+      const nav = document.querySelector(".nav-menu");
+      hamburger.addEventListener("click", () => {
+        nav.classList.toggle("open");
+      });
+    });
+  </script>
+
+</body>
+</html>
